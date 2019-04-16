@@ -1,8 +1,3 @@
-# sdl-bindings
-
-# To play WAV:
-
-```
 package main
 
 import (
@@ -27,4 +22,3 @@ func main() {
 		panic(err)
 	}
 }
-```
