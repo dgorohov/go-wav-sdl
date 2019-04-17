@@ -1,8 +1,8 @@
-# sdl-bindings
+# SDL2 bindings
 
-# To play WAV:
+## To play WAV:
 
-```
+```golang
 package main
 
 import (
