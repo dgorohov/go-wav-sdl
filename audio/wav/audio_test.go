@@ -7,7 +7,7 @@ import (
 )
 
 func TestPlayWav(t *testing.T) {
-	sdl.Init(sdl.SDL_AUDIO)
+	sdl.Init(sdl.Audio)
 	defer sdl.Quit()
 
 	if err := wav.PlayWAV("maybe-next-time-huh.wav"); err != nil {

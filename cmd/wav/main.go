@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	sdl.Init(sdl.SDL_AUDIO)
+	sdl.Init(sdl.Audio)
 	defer sdl.Quit()
 
 	path, err := filepath.Abs(os.Args[1])

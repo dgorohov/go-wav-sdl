@@ -3,13 +3,13 @@ package sdl
 // #include "sdl2.h"
 import "C"
 
-type SDLMode uint32
+type Mode uint32
 
 const (
-	SDL_AUDIO SDLMode = C.SDL_INIT_AUDIO
+	Audio Mode = C.SDL_INIT_AUDIO
 )
 
-func Init(mode SDLMode) {
+func Init(mode Mode) {
 	C.sdl_init(C.uint32_t(mode))
 }
 
